@@ -68,29 +68,35 @@ class App extends Component {
 
 
                 <section className="wrapper style1 align-center">
-                    <div className="inner">
-                        <h2>EXPERIENCE</h2>
+                    <div>
                     </div>
                     <section
-                        className="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+                        className="spotlight style2 orient-right content-align-left image-position-center onscroll-image-fade-in">
                         <div className="content">
-                            <h2>Magna etiam feugiat</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra
-                                lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus.
-                                Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor
-                                sit amet.</p>
-                            <ul className="actions vertical">
-                                <li><a href="#" className="button">Learn More</a></li>
-                            </ul>
+                            <h2>Who I Am</h2>
+                            <h4>Hi! I am Prabakaran Sigamani. I love analysing data and developing Products for better
+                                solutions and reading books. I'm almost always smiling, till the Last :)</h4>
+                            <p>Right Now, I help people creating awesome products to solve Age-Old Fresh Vegetable and Fruits
+                                Supply Chain problems at Ninjacart, India's leading Agri-Marketing Platform connection Farmers to Store (B2B Platform).
+                                Prior to Development, I was Business Analyst at Ninjacart. There, I focused on demand-forecasting,
+                                business-modelling for building cost-effective, Low Waste and Good Quality (Freshness) Supply Chain from
+                                scratch with founding Members of Ninjacart breaking the Age-Old Cost-inefficient, Higher Waste
+                                and Moderate Quality Vegetable Supply Chain. Popularly know as <b>Scientist</b> :P
+                            </p>
+                            <p>
+                                I'm originally from Pudhukuraipettai, a small town in Cuddalore. When I'm not solving
+                                problems, you're likely to find me exploring nature, reading good content on philosophy,
+                                personal development, biographies, technology, chit-chat with friends or taking a
+                                breath-taking bike drive along Indian NHs.
+                            </p>
                         </div>
                         <div className="image">
-                            <img src="images/spotlight01.jpg" alt=""/>
+                            <img src="https://i.imgur.com/EdV2gFC.jpg" alt=""/>
                         </div>
                     </section>
                 </section>
 
-
-                <PingMe/>
+                /*<PingMe/>*/
                 <Footer/>
             </div>
         )
