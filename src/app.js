@@ -20,6 +20,7 @@ class App extends Component {
 
 
                             <Skills imgUrl="https://i.imgur.com/W1T3Rx9.png" skillName="Git"/>
+                            <Skills imgUrl="https://i.imgur.com/uDsQOd6.png" skillName="AWS"/>
 
                             <Skills imgUrl="https://i.imgur.com/5VHxwZr.png" skillName="MySql"/>
 
@@ -54,14 +55,16 @@ class App extends Component {
                         </p>
                     </div>
                     <div className="gallery style2 medium lightbox onscroll-fade-in">
-                        <Projects imgUrl="https://i.imgur.com/fqE5DoK.jpg" projectTitle="Logistics Planning"
+                        <Projects imgUrl="https://i.imgur.com/Xszw0SV.jpg" projectTitle="ODL Integration" projectDesc="projectDesc" />
+                        <Projects imgUrl="https://i.imgur.com/Xszw0SV.jpg" projectTitle="FrontLine Solver Integration" projectDesc="projectDesc" />
+                        <Projects imgUrl="https://i.imgur.com/Xszw0SV.jpg" projectTitle="Logistics Planning & Optimization"
                                   projectDesc="Transfer of Goods from Distribution Hub to Customer includes planning of
                                   No of Vehicles to be used, Vehicle Type, no of Customer per Vehicle and Cost Optimization
                                   Routes based of Geo-location" />
-                        <Projects imgUrl="https://i.imgur.com/fqE5DoK.jpg" projectTitle="projectTitle1" projectDesc="projectDesc" />
-                        <Projects imgUrl="https://i.imgur.com/fqE5DoK.jpg" projectTitle="projectTitle2" projectDesc="projectDesc" />
-                        <Projects imgUrl="https://i.imgur.com/fqE5DoK.jpg" projectTitle="projectTitle3" projectDesc="projectDesc" />
-                        <Projects imgUrl="https://i.imgur.com/fqE5DoK.jpg" projectTitle="projectTitle4" projectDesc="projectDesc" />
+                        <Projects imgUrl="https://i.imgur.com/Xszw0SV.jpg" projectTitle="Demand Forecasting" projectDesc="projectDesc" />
+                        <Projects imgUrl="https://i.imgur.com/Xszw0SV.jpg" projectTitle="Product Pricing" projectDesc="projectDesc" />
+                        <Projects imgUrl="https://i.imgur.com/Xszw0SV.jpg" projectTitle="Profit Loss Statement" projectDesc="projectDesc" />
+                        <Projects imgUrl="https://i.imgur.com/Xszw0SV.jpg" projectTitle="Business Modelling" projectDesc="projectDesc" />
                     </div>
 
                 </section>
@@ -77,7 +80,8 @@ class App extends Component {
                             <h4>Hi! I am Prabakaran Sigamani. I love analysing data and developing Products for better
                                 solutions and reading books. I'm almost always smiling, till the Last :)</h4>
                             <p>Right Now, I help people creating awesome products to solve Age-Old Fresh Vegetable and Fruits
-                                Supply Chain problems at Ninjacart, India's leading Agri-Marketing Platform connection Farmers to Store (B2B Platform).
+                                Supply Chain problems at <a href="http://ninjacart.com/">Ninjacart</a>,
+                                India's leading Agri-Marketing Platform connecting Farmers to Store (B2B Platform)
                                 Prior to Development, I was Business Analyst at Ninjacart. There, I focused on demand-forecasting,
                                 business-modelling for building cost-effective, Low Waste and Good Quality (Freshness) Supply Chain from
                                 scratch with founding Members of Ninjacart breaking the Age-Old Cost-inefficient, Higher Waste
@@ -96,7 +100,7 @@ class App extends Component {
                     </section>
                 </section>
 
-                /*<PingMe/>*/
+                <PingMe/>
                 <Footer/>
             </div>
         )

@@ -7,7 +7,7 @@ export default (props) => {
     return (
         <section>
             <img src={imgUrl} alt="" height="64px" width="aspect-ratio"/>
-            <h3>{skillName}</h3>
+            <h4>{skillName}</h4>
         </section>
     )
 }
